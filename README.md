@@ -130,5 +130,25 @@ If you want, I can show how to design an **AI agent for your AKS/ARC runner auto
 
 </details>
 
+## 1. MCP
+
+<details>
+<summary>What is MCP server</summary>
+
+**MCP (Model Context Protocol) server** is a component that allows AI models (like LLMs) to securely connect to external tools, data sources, and systems.
+
+👉 In short:
+It acts as a **bridge between AI and real-world systems** (APIs, databases, files, services).
+
+**Example:**
+- AI → wants data from GitHub / Azure / DB
+- I wanted to know how much sales i did today in my shop? -> it will talk to my dbs and get those info
+- MCP server → handles the request and returns structured data  
+
+✅ Think of it as:
+> “Standard interface that lets AI safely use external tools”
+
+</details>
+
 
 
